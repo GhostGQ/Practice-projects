@@ -17,7 +17,7 @@ function blurring() {
   bg.style.filter = `blur(${scale(load, 0, 100, 40, 0)}px)`
 }
 
-const scale = (num, in_min, in_max, out_min, out_max) => {
-  return ((num - in_min) * (out_max - out_min)) / (in_max - in_min) + out_min
+const scale = (num, inMin, inMax, outMin, outMax) => {
+  return ((num - inMin) * (outMax - outMin)) / (inMax - inMin) + outMin
 }
 
