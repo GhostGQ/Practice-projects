@@ -20,27 +20,27 @@ body {
 .search .input {
     background-color: #fff;
     border: 0;
-    border-radius: 8px;
+    border-radius: 10px;
     font-size: 18px;
     padding: 15px;
-    height: 35px;
-    width: 50px;
+    height: 30px;
+    width: 40px;
     transition: width 0.3s ease;
 }
 
 .btn {
     background-color: #fff;
     border: 0;
-    border-radius: 8px;
+    border-radius: 10px;
     cursor: pointer;
-    font-size: 24px;
+    font-size: 22px;
     font-weight: bold;
     position: absolute;
     top: 0;
     left: 0;
-    height: 35px;
-    width: 50px;
-    transition: transform 0.3s ease;
+    height: 30px;
+    width: 40px;
+    transition: transform 0.4s ease;
 }
 
 .input:focus, .btn:focus {
@@ -48,9 +48,9 @@ body {
 }
 
 .search.active .input {
-    width: 210px;
+    width: 218px;
 }
 
 .search.active .btn {
-    transform: translateX(197px);
+    transform: translateX(180px);
 }
